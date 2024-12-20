@@ -18,8 +18,8 @@ inputs:
     default: '3.10'
   add-paths: # files to include in git commit
     description: 'A comma or newline-separated list of file paths to commit. 
-    Paths should follow git's pathspec syntax. If no paths are specified, 
-    all new and modified files are added.'
+      Paths should follow git's pathspec syntax. If no paths are specified, 
+      all new and modified files are added.'
     default: '*'
 runs:
   using: "composite"
