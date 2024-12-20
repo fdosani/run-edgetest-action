@@ -33,4 +33,4 @@ jobs:
         base-branch: 'dev'
         skip-pr: 'true'
         python-version: ${{ matrix.python-version }}
-        add-paths: setup.cfg, requirements.txt
+        add-paths: 'setup.cfg, requirements.txt'
